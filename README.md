@@ -65,7 +65,7 @@ Se o comando imprimir a versão do PyTorch e o tensor sem erros, o ambiente est�
 
 ## Glossário
 
-Os glossários técnicos de cada capítulo estão disponíveis em [`glossario/`](./glossario/).
+Os glossários técnicos de cada capítulo estão disponíveis em [`glossario.md`](./glossario.md).
 
 ## Referências
 
