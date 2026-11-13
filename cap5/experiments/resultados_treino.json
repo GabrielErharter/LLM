@@ -1,0 +1,151 @@
+{
+  "base": {
+    "nome": "base",
+    "train": 1.5986052561889996,
+    "val": 2.706873407959938,
+    "ppl_val": 14.982358485108685,
+    "gap": 1.1082681517709385,
+    "sobreajuste": false,
+    "melhor_epoca": 9,
+    "tempo": 274.59144990000004,
+    "tok_s": 13126.701509871009,
+    "amostra": "The Project Gutenberg eBook of Dom Casmura a para de minha mãe\nachara de minha mãe de contar a minha mãe de contar a minha mãe de\ncontar e a minha mãe de contar a minha mãe de contar a minha",
+    "n_params": 828672
+  },
+  "lr": [
+    {
+      "nome": "lr=0.0001",
+      "train": 2.0903057611801406,
+      "val": 3.2170080602169038,
+      "ppl_val": 24.95334946339107,
+      "gap": 1.1267022990367632,
+      "sobreajuste": false,
+      "melhor_epoca": 10,
+      "tempo": 297.89492059999975,
+      "tok_s": 12099.837059121723,
+      "amostra": "The Project Gutenberg eBook of Dom Casmuito de a de por de a de a de parar a de a de a de parara a a de a de a de parara a a de a de a de parara a a de a de a de parara a a de a de a de para",
+      "n_params": 828672
+    },
+    {
+      "nome": "lr=0.0005",
+      "train": 1.5986052561889996,
+      "val": 2.706873407959938,
+      "ppl_val": 14.982358485108685,
+      "gap": 1.1082681517709385,
+      "sobreajuste": false,
+      "melhor_epoca": 9,
+      "tempo": 268.78786990000026,
+      "tok_s": 13410.128966537848,
+      "amostra": "The Project Gutenberg eBook of Dom Casmura a para de minha mãe\nachara de minha mãe de contar a minha mãe de contar a minha mãe de\ncontar e a minha mãe de contar a minha mãe de contar a minha",
+      "n_params": 828672
+    },
+    {
+      "nome": "lr=0.002",
+      "train": 1.4340499646284364,
+      "val": 2.5625676810741425,
+      "ppl_val": 12.9690750481958,
+      "gap": 1.128517716445706,
+      "sobreajuste": true,
+      "melhor_epoca": 9,
+      "tempo": 263.63610659999995,
+      "tok_s": 13672.178847144303,
+      "amostra": "The Project Gutenberg eBook of Dom Casmuro de contrar a minha mãe de contrar a minha mãe de contrar a minha mãe de contrar a minha mãe de contrar a minha mãe de contrar a minha mãe de contra",
+      "n_params": 828672
+    },
+    {
+      "nome": "lr=0.01",
+      "train": 1.688020852140405,
+      "val": 2.649791193008423,
+      "ppl_val": 14.15108349168671,
+      "gap": 0.961770340868018,
+      "sobreajuste": false,
+      "melhor_epoca": 10,
+      "tempo": 274.58954319999975,
+      "tok_s": 13126.792659306202,
+      "amostra": "The Project Gutenberg eBook of Dom Casmuro de com a minha mãe a minha a minha a minha a minha a minha a minha a minha a minha a minha a minha a minha a minha a minha a minha a minha a minha ",
+      "n_params": 828672
+    }
+  ],
+  "batch": [
+    {
+      "nome": "batch=4",
+      "train": 1.5045704934679929,
+      "val": 2.579568846210553,
+      "ppl_val": 13.191449389986388,
+      "gap": 1.07499835274256,
+      "sobreajuste": false,
+      "melhor_epoca": 10,
+      "tempo": 483.0232729999998,
+      "tok_s": 7467.631896072224,
+      "amostra": "The Project Gutenberg eBook of Dom Casmulo de Capitú de Capitú e a minha mãe era mãe a minha mãe era mãe a minha mãe era mãe a minha mãe era mãe a minha mãe era mãe a minha mãe era mãe a min",
+      "n_params": 828672
+    },
+    {
+      "nome": "batch=16",
+      "train": 1.5986052561889996,
+      "val": 2.706873407959938,
+      "ppl_val": 14.982358485108685,
+      "gap": 1.1082681517709385,
+      "sobreajuste": false,
+      "melhor_epoca": 9,
+      "tempo": 271.62005390000013,
+      "tok_s": 13270.301467972717,
+      "amostra": "The Project Gutenberg eBook of Dom Casmura a para de minha mãe\nachara de minha mãe de contar a minha mãe de contar a minha mãe de\ncontar e a minha mãe de contar a minha mãe de contar a minha",
+      "n_params": 828672
+    },
+    {
+      "nome": "batch=64",
+      "train": 1.844257194887508,
+      "val": 2.8559717535972595,
+      "ppl_val": 17.39132908555546,
+      "gap": 1.0117145587097516,
+      "sobreajuste": false,
+      "melhor_epoca": 10,
+      "tempo": 286.9092834000003,
+      "tok_s": 12563.134790500113,
+      "amostra": "The Project Gutenberg eBook of Dom Casmuito de sem a mais de mas paras de mas de mas paras de mas de mas paras de a mais de mestas de mestas de mestas de mestas de mestas de mestas de mestas",
+      "n_params": 828672
+    }
+  ],
+  "dropout": [
+    {
+      "nome": "dropout=0",
+      "train": 1.4380105727098205,
+      "val": 2.667156246304512,
+      "ppl_val": 14.398963809287558,
+      "gap": 1.2291456735946917,
+      "sobreajuste": false,
+      "melhor_epoca": 10,
+      "tempo": 206.09753889999956,
+      "tok_s": 17489.1947727184,
+      "amostra": "The Project Gutenberg eBook of Dom Casmulho primeiro a minha mãe\nde casar a minha mãe a minha mãe a minha mãe a minha mãe era compliciosico. Esta meia em complicio de mesmo que elle para mes",
+      "n_params": 828672
+    },
+    {
+      "nome": "dropout=0.1",
+      "train": 1.5986052561889996,
+      "val": 2.706873407959938,
+      "ppl_val": 14.982358485108685,
+      "gap": 1.1082681517709385,
+      "sobreajuste": false,
+      "melhor_epoca": 9,
+      "tempo": 275.5246483000001,
+      "tok_s": 13082.241542598129,
+      "amostra": "The Project Gutenberg eBook of Dom Casmura a para de minha mãe\nachara de minha mãe de contar a minha mãe de contar a minha mãe de\ncontar e a minha mãe de contar a minha mãe de contar a minha",
+      "n_params": 828672
+    },
+    {
+      "nome": "dropout=0.3",
+      "train": 1.8386681340634823,
+      "val": 2.8275950759649278,
+      "ppl_val": 16.904757242647875,
+      "gap": 0.9889269419014455,
+      "sobreajuste": true,
+      "melhor_epoca": 9,
+      "tempo": 263.4863676999994,
+      "tok_s": 13679.948725483942,
+      "amostra": "The Project Gutenberg eBook of Dom Casmuitú de a minha de a minha de a minha de a minha de a minha de a minha de a minha de a minha de a minha de a minha de a minha de a minha de a minha de ",
+      "n_params": 828672
+    }
+  ]
+}

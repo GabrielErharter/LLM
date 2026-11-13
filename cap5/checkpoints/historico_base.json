@@ -1,0 +1,1353 @@
+{
+  "params": {
+    "tokenizador": "char",
+    "contexto": 64,
+    "batch": 16,
+    "emb": 128,
+    "heads": 4,
+    "camadas": 4,
+    "dropout": 0.1,
+    "lr": 0.0005,
+    "wd": 0.1,
+    "epocas": 10,
+    "split": 0.9,
+    "seed": 123,
+    "stride": null,
+    "eval_freq": 20,
+    "eval_iter": 5,
+    "grad_clip": null
+  },
+  "n_params": 828672,
+  "inicial": {
+    "train_loss": 4.869172643531453,
+    "val_loss": 4.796553683280945
+  },
+  "passos": [
+    {
+      "step": 20,
+      "epoca": 1,
+      "tokens": 20480,
+      "train_loss": 3.0985718250274656,
+      "val_loss": 3.095797967910767
+    },
+    {
+      "step": 40,
+      "epoca": 1,
+      "tokens": 40960,
+      "train_loss": 2.794584560394287,
+      "val_loss": 2.7920570850372313
+    },
+    {
+      "step": 60,
+      "epoca": 1,
+      "tokens": 61440,
+      "train_loss": 2.652992820739746,
+      "val_loss": 2.636726474761963
+    },
+    {
+      "step": 80,
+      "epoca": 1,
+      "tokens": 81920,
+      "train_loss": 2.596705913543701,
+      "val_loss": 2.5508206844329835
+    },
+    {
+      "step": 100,
+      "epoca": 1,
+      "tokens": 102400,
+      "train_loss": 2.4964291572570803,
+      "val_loss": 2.5058799743652345
+    },
+    {
+      "step": 120,
+      "epoca": 1,
+      "tokens": 122880,
+      "train_loss": 2.531954860687256,
+      "val_loss": 2.4761631011962892
+    },
+    {
+      "step": 140,
+      "epoca": 1,
+      "tokens": 143360,
+      "train_loss": 2.45271315574646,
+      "val_loss": 2.4502720832824707
+    },
+    {
+      "step": 160,
+      "epoca": 1,
+      "tokens": 163840,
+      "train_loss": 2.4433359622955324,
+      "val_loss": 2.435917043685913
+    },
+    {
+      "step": 180,
+      "epoca": 1,
+      "tokens": 184320,
+      "train_loss": 2.4802474975585938,
+      "val_loss": 2.4144521236419676
+    },
+    {
+      "step": 200,
+      "epoca": 1,
+      "tokens": 204800,
+      "train_loss": 2.4261362075805666,
+      "val_loss": 2.4062769412994385
+    },
+    {
+      "step": 220,
+      "epoca": 1,
+      "tokens": 225280,
+      "train_loss": 2.4236230850219727,
+      "val_loss": 2.4038582324981688
+    },
+    {
+      "step": 240,
+      "epoca": 1,
+      "tokens": 245760,
+      "train_loss": 2.398841142654419,
+      "val_loss": 2.391458749771118
+    },
+    {
+      "step": 260,
+      "epoca": 1,
+      "tokens": 266240,
+      "train_loss": 2.3879292488098143,
+      "val_loss": 2.3773852825164794
+    },
+    {
+      "step": 280,
+      "epoca": 1,
+      "tokens": 286720,
+      "train_loss": 2.383000040054321,
+      "val_loss": 2.369604063034058
+    },
+    {
+      "step": 300,
+      "epoca": 1,
+      "tokens": 307200,
+      "train_loss": 2.3545956134796144,
+      "val_loss": 2.3602704048156737
+    },
+    {
+      "step": 320,
+      "epoca": 1,
+      "tokens": 327680,
+      "train_loss": 2.383268642425537,
+      "val_loss": 2.355569362640381
+    },
+    {
+      "step": 340,
+      "epoca": 1,
+      "tokens": 348160,
+      "train_loss": 2.3555705070495607,
+      "val_loss": 2.3511837482452393
+    },
+    {
+      "step": 360,
+      "epoca": 2,
+      "tokens": 368640,
+      "train_loss": 2.355103874206543,
+      "val_loss": 2.333375597000122
+    },
+    {
+      "step": 380,
+      "epoca": 2,
+      "tokens": 389120,
+      "train_loss": 2.330827760696411,
+      "val_loss": 2.324070405960083
+    },
+    {
+      "step": 400,
+      "epoca": 2,
+      "tokens": 409600,
+      "train_loss": 2.328876256942749,
+      "val_loss": 2.322287178039551
+    },
+    {
+      "step": 420,
+      "epoca": 2,
+      "tokens": 430080,
+      "train_loss": 2.3240466117858887,
+      "val_loss": 2.3005720138549806
+    },
+    {
+      "step": 440,
+      "epoca": 2,
+      "tokens": 450560,
+      "train_loss": 2.3222049713134765,
+      "val_loss": 2.2986405372619627
+    },
+    {
+      "step": 460,
+      "epoca": 2,
+      "tokens": 471040,
+      "train_loss": 2.3060396671295167,
+      "val_loss": 2.296026086807251
+    },
+    {
+      "step": 480,
+      "epoca": 2,
+      "tokens": 491520,
+      "train_loss": 2.2647650241851807,
+      "val_loss": 2.2717598915100097
+    },
+    {
+      "step": 500,
+      "epoca": 2,
+      "tokens": 512000,
+      "train_loss": 2.2452276229858397,
+      "val_loss": 2.256875419616699
+    },
+    {
+      "step": 520,
+      "epoca": 2,
+      "tokens": 532480,
+      "train_loss": 2.216652202606201,
+      "val_loss": 2.2428334236145018
+    },
+    {
+      "step": 540,
+      "epoca": 2,
+      "tokens": 552960,
+      "train_loss": 2.2701734066009522,
+      "val_loss": 2.2278608798980715
+    },
+    {
+      "step": 560,
+      "epoca": 2,
+      "tokens": 573440,
+      "train_loss": 2.2495930194854736,
+      "val_loss": 2.2204136848449707
+    },
+    {
+      "step": 580,
+      "epoca": 2,
+      "tokens": 593920,
+      "train_loss": 2.2437603950500487,
+      "val_loss": 2.211655378341675
+    },
+    {
+      "step": 600,
+      "epoca": 2,
+      "tokens": 614400,
+      "train_loss": 2.2171233654022218,
+      "val_loss": 2.1989134788513183
+    },
+    {
+      "step": 620,
+      "epoca": 2,
+      "tokens": 634880,
+      "train_loss": 2.1585031032562254,
+      "val_loss": 2.17236385345459
+    },
+    {
+      "step": 640,
+      "epoca": 2,
+      "tokens": 655360,
+      "train_loss": 2.225781488418579,
+      "val_loss": 2.1612629890441895
+    },
+    {
+      "step": 660,
+      "epoca": 2,
+      "tokens": 675840,
+      "train_loss": 2.166737699508667,
+      "val_loss": 2.1585564613342285
+    },
+    {
+      "step": 680,
+      "epoca": 2,
+      "tokens": 696320,
+      "train_loss": 2.1644586086273194,
+      "val_loss": 2.147741270065308
+    },
+    {
+      "step": 700,
+      "epoca": 2,
+      "tokens": 716800,
+      "train_loss": 2.135153818130493,
+      "val_loss": 2.1306198120117186
+    },
+    {
+      "step": 720,
+      "epoca": 3,
+      "tokens": 737280,
+      "train_loss": 2.1386878967285154,
+      "val_loss": 2.121903085708618
+    },
+    {
+      "step": 740,
+      "epoca": 3,
+      "tokens": 757760,
+      "train_loss": 2.124517822265625,
+      "val_loss": 2.118157911300659
+    },
+    {
+      "step": 760,
+      "epoca": 3,
+      "tokens": 778240,
+      "train_loss": 2.1494033336639404,
+      "val_loss": 2.113356018066406
+    },
+    {
+      "step": 780,
+      "epoca": 3,
+      "tokens": 798720,
+      "train_loss": 2.1059823036193848,
+      "val_loss": 2.0985679626464844
+    },
+    {
+      "step": 800,
+      "epoca": 3,
+      "tokens": 819200,
+      "train_loss": 2.1241892337799073,
+      "val_loss": 2.097231864929199
+    },
+    {
+      "step": 820,
+      "epoca": 3,
+      "tokens": 839680,
+      "train_loss": 2.070786952972412,
+      "val_loss": 2.0789495944976806
+    },
+    {
+      "step": 840,
+      "epoca": 3,
+      "tokens": 860160,
+      "train_loss": 2.1067652225494387,
+      "val_loss": 2.072950506210327
+    },
+    {
+      "step": 860,
+      "epoca": 3,
+      "tokens": 880640,
+      "train_loss": 2.0794163227081297,
+      "val_loss": 2.0698259830474854
+    },
+    {
+      "step": 880,
+      "epoca": 3,
+      "tokens": 901120,
+      "train_loss": 2.079091787338257,
+      "val_loss": 2.064592695236206
+    },
+    {
+      "step": 900,
+      "epoca": 3,
+      "tokens": 921600,
+      "train_loss": 2.036817741394043,
+      "val_loss": 2.0561522483825683
+    },
+    {
+      "step": 920,
+      "epoca": 3,
+      "tokens": 942080,
+      "train_loss": 2.0057963371276855,
+      "val_loss": 2.0561683177948
+    },
+    {
+      "step": 940,
+      "epoca": 3,
+      "tokens": 962560,
+      "train_loss": 2.0518519401550295,
+      "val_loss": 2.0402156829833986
+    },
+    {
+      "step": 960,
+      "epoca": 3,
+      "tokens": 983040,
+      "train_loss": 2.040354585647583,
+      "val_loss": 2.040088987350464
+    },
+    {
+      "step": 980,
+      "epoca": 3,
+      "tokens": 1003520,
+      "train_loss": 2.043639039993286,
+      "val_loss": 2.025029993057251
+    },
+    {
+      "step": 1000,
+      "epoca": 3,
+      "tokens": 1024000,
+      "train_loss": 2.0328174591064454,
+      "val_loss": 2.0205790519714357
+    },
+    {
+      "step": 1020,
+      "epoca": 3,
+      "tokens": 1044480,
+      "train_loss": 1.9983191013336181,
+      "val_loss": 2.015365982055664
+    },
+    {
+      "step": 1040,
+      "epoca": 3,
+      "tokens": 1064960,
+      "train_loss": 2.0197543621063234,
+      "val_loss": 2.007201385498047
+    },
+    {
+      "step": 1060,
+      "epoca": 4,
+      "tokens": 1085440,
+      "train_loss": 1.9895514726638794,
+      "val_loss": 2.002217721939087
+    },
+    {
+      "step": 1080,
+      "epoca": 4,
+      "tokens": 1105920,
+      "train_loss": 1.9848515510559082,
+      "val_loss": 1.9984373569488525
+    },
+    {
+      "step": 1100,
+      "epoca": 4,
+      "tokens": 1126400,
+      "train_loss": 1.9977605104446412,
+      "val_loss": 1.9820581197738647
+    },
+    {
+      "step": 1120,
+      "epoca": 4,
+      "tokens": 1146880,
+      "train_loss": 1.9754204750061035,
+      "val_loss": 1.984743356704712
+    },
+    {
+      "step": 1140,
+      "epoca": 4,
+      "tokens": 1167360,
+      "train_loss": 2.0105534315109255,
+      "val_loss": 1.9862298250198365
+    },
+    {
+      "step": 1160,
+      "epoca": 4,
+      "tokens": 1187840,
+      "train_loss": 1.950870442390442,
+      "val_loss": 1.9734892845153809
+    },
+    {
+      "step": 1180,
+      "epoca": 4,
+      "tokens": 1208320,
+      "train_loss": 1.9678015470504762,
+      "val_loss": 1.973794937133789
+    },
+    {
+      "step": 1200,
+      "epoca": 4,
+      "tokens": 1228800,
+      "train_loss": 1.971156930923462,
+      "val_loss": 1.9716452360153198
+    },
+    {
+      "step": 1220,
+      "epoca": 4,
+      "tokens": 1249280,
+      "train_loss": 1.964962363243103,
+      "val_loss": 1.9637801885604858
+    },
+    {
+      "step": 1240,
+      "epoca": 4,
+      "tokens": 1269760,
+      "train_loss": 1.9487032890319824,
+      "val_loss": 1.9488608598709107
+    },
+    {
+      "step": 1260,
+      "epoca": 4,
+      "tokens": 1290240,
+      "train_loss": 1.9629596710205077,
+      "val_loss": 1.9475637674331665
+    },
+    {
+      "step": 1280,
+      "epoca": 4,
+      "tokens": 1310720,
+      "train_loss": 1.9490294694900512,
+      "val_loss": 1.952198600769043
+    },
+    {
+      "step": 1300,
+      "epoca": 4,
+      "tokens": 1331200,
+      "train_loss": 1.96630961894989,
+      "val_loss": 1.9519718647003175
+    },
+    {
+      "step": 1320,
+      "epoca": 4,
+      "tokens": 1351680,
+      "train_loss": 1.9203433036804198,
+      "val_loss": 1.9345526218414306
+    },
+    {
+      "step": 1340,
+      "epoca": 4,
+      "tokens": 1372160,
+      "train_loss": 1.8903542518615724,
+      "val_loss": 1.9402731657028198
+    },
+    {
+      "step": 1360,
+      "epoca": 4,
+      "tokens": 1392640,
+      "train_loss": 1.9356880903244018,
+      "val_loss": 1.931557035446167
+    },
+    {
+      "step": 1380,
+      "epoca": 4,
+      "tokens": 1413120,
+      "train_loss": 1.905135202407837,
+      "val_loss": 1.919417643547058
+    },
+    {
+      "step": 1400,
+      "epoca": 4,
+      "tokens": 1433600,
+      "train_loss": 1.9027945280075074,
+      "val_loss": 1.9266956567764282
+    },
+    {
+      "step": 1420,
+      "epoca": 5,
+      "tokens": 1454080,
+      "train_loss": 1.8399665832519532,
+      "val_loss": 1.913317608833313
+    },
+    {
+      "step": 1440,
+      "epoca": 5,
+      "tokens": 1474560,
+      "train_loss": 1.9129329681396485,
+      "val_loss": 1.9280436277389525
+    },
+    {
+      "step": 1460,
+      "epoca": 5,
+      "tokens": 1495040,
+      "train_loss": 1.8828124761581422,
+      "val_loss": 1.9079389810562133
+    },
+    {
+      "step": 1480,
+      "epoca": 5,
+      "tokens": 1515520,
+      "train_loss": 1.888459849357605,
+      "val_loss": 1.9004108428955078
+    },
+    {
+      "step": 1500,
+      "epoca": 5,
+      "tokens": 1536000,
+      "train_loss": 1.9102257013320922,
+      "val_loss": 1.8942962169647217
+    },
+    {
+      "step": 1520,
+      "epoca": 5,
+      "tokens": 1556480,
+      "train_loss": 1.8936525583267212,
+      "val_loss": 1.8967281818389892
+    },
+    {
+      "step": 1540,
+      "epoca": 5,
+      "tokens": 1576960,
+      "train_loss": 1.8854055166244508,
+      "val_loss": 1.904435658454895
+    },
+    {
+      "step": 1560,
+      "epoca": 5,
+      "tokens": 1597440,
+      "train_loss": 1.8363813638687134,
+      "val_loss": 1.8882526397705077
+    },
+    {
+      "step": 1580,
+      "epoca": 5,
+      "tokens": 1617920,
+      "train_loss": 1.921112322807312,
+      "val_loss": 1.8854103565216065
+    },
+    {
+      "step": 1600,
+      "epoca": 5,
+      "tokens": 1638400,
+      "train_loss": 1.8634047508239746,
+      "val_loss": 1.8828878164291383
+    },
+    {
+      "step": 1620,
+      "epoca": 5,
+      "tokens": 1658880,
+      "train_loss": 1.8790507555007934,
+      "val_loss": 1.8768455266952515
+    },
+    {
+      "step": 1640,
+      "epoca": 5,
+      "tokens": 1679360,
+      "train_loss": 1.8413688659667968,
+      "val_loss": 1.8786990642547607
+    },
+    {
+      "step": 1660,
+      "epoca": 5,
+      "tokens": 1699840,
+      "train_loss": 1.888120675086975,
+      "val_loss": 1.8785723209381104
+    },
+    {
+      "step": 1680,
+      "epoca": 5,
+      "tokens": 1720320,
+      "train_loss": 1.8301403045654296,
+      "val_loss": 1.862681007385254
+    },
+    {
+      "step": 1700,
+      "epoca": 5,
+      "tokens": 1740800,
+      "train_loss": 1.8256153345108033,
+      "val_loss": 1.8613828420639038
+    },
+    {
+      "step": 1720,
+      "epoca": 5,
+      "tokens": 1761280,
+      "train_loss": 1.7949970245361329,
+      "val_loss": 1.8536895990371705
+    },
+    {
+      "step": 1740,
+      "epoca": 5,
+      "tokens": 1781760,
+      "train_loss": 1.8566795349121095,
+      "val_loss": 1.850981068611145
+    },
+    {
+      "step": 1760,
+      "epoca": 5,
+      "tokens": 1802240,
+      "train_loss": 1.8438738107681274,
+      "val_loss": 1.8592702865600585
+    },
+    {
+      "step": 1780,
+      "epoca": 6,
+      "tokens": 1822720,
+      "train_loss": 1.8365731716156006,
+      "val_loss": 1.8412154912948608
+    },
+    {
+      "step": 1800,
+      "epoca": 6,
+      "tokens": 1843200,
+      "train_loss": 1.8384607315063477,
+      "val_loss": 1.8406116485595703
+    },
+    {
+      "step": 1820,
+      "epoca": 6,
+      "tokens": 1863680,
+      "train_loss": 1.784423565864563,
+      "val_loss": 1.8384348630905152
+    },
+    {
+      "step": 1840,
+      "epoca": 6,
+      "tokens": 1884160,
+      "train_loss": 1.8153348207473754,
+      "val_loss": 1.8294552326202393
+    },
+    {
+      "step": 1860,
+      "epoca": 6,
+      "tokens": 1904640,
+      "train_loss": 1.7850271701812743,
+      "val_loss": 1.8338074445724488
+    },
+    {
+      "step": 1880,
+      "epoca": 6,
+      "tokens": 1925120,
+      "train_loss": 1.8531474351882935,
+      "val_loss": 1.8309356451034546
+    },
+    {
+      "step": 1900,
+      "epoca": 6,
+      "tokens": 1945600,
+      "train_loss": 1.7943222045898437,
+      "val_loss": 1.825064730644226
+    },
+    {
+      "step": 1920,
+      "epoca": 6,
+      "tokens": 1966080,
+      "train_loss": 1.7941357374191285,
+      "val_loss": 1.8243700504302978
+    },
+    {
+      "step": 1940,
+      "epoca": 6,
+      "tokens": 1986560,
+      "train_loss": 1.7667991161346435,
+      "val_loss": 1.8186770915985107
+    },
+    {
+      "step": 1960,
+      "epoca": 6,
+      "tokens": 2007040,
+      "train_loss": 1.7713810682296753,
+      "val_loss": 1.8242549419403076
+    },
+    {
+      "step": 1980,
+      "epoca": 6,
+      "tokens": 2027520,
+      "train_loss": 1.7673690557479858,
+      "val_loss": 1.8156879186630248
+    },
+    {
+      "step": 2000,
+      "epoca": 6,
+      "tokens": 2048000,
+      "train_loss": 1.76706383228302,
+      "val_loss": 1.8092637300491332
+    },
+    {
+      "step": 2020,
+      "epoca": 6,
+      "tokens": 2068480,
+      "train_loss": 1.7767377853393556,
+      "val_loss": 1.808474588394165
+    },
+    {
+      "step": 2040,
+      "epoca": 6,
+      "tokens": 2088960,
+      "train_loss": 1.771867537498474,
+      "val_loss": 1.8059626817703247
+    },
+    {
+      "step": 2060,
+      "epoca": 6,
+      "tokens": 2109440,
+      "train_loss": 1.7867379188537598,
+      "val_loss": 1.7975933313369752
+    },
+    {
+      "step": 2080,
+      "epoca": 6,
+      "tokens": 2129920,
+      "train_loss": 1.7681825876235961,
+      "val_loss": 1.7949147939682006
+    },
+    {
+      "step": 2100,
+      "epoca": 6,
+      "tokens": 2150400,
+      "train_loss": 1.7785273551940919,
+      "val_loss": 1.7916687250137329
+    },
+    {
+      "step": 2120,
+      "epoca": 7,
+      "tokens": 2170880,
+      "train_loss": 1.7769498348236084,
+      "val_loss": 1.7991539478302
+    },
+    {
+      "step": 2140,
+      "epoca": 7,
+      "tokens": 2191360,
+      "train_loss": 1.7731443166732788,
+      "val_loss": 1.7983865022659302
+    },
+    {
+      "step": 2160,
+      "epoca": 7,
+      "tokens": 2211840,
+      "train_loss": 1.7465257883071899,
+      "val_loss": 1.7916857957839967
+    },
+    {
+      "step": 2180,
+      "epoca": 7,
+      "tokens": 2232320,
+      "train_loss": 1.7440135717391967,
+      "val_loss": 1.787326693534851
+    },
+    {
+      "step": 2200,
+      "epoca": 7,
+      "tokens": 2252800,
+      "train_loss": 1.7848413467407227,
+      "val_loss": 1.7806514263153077
+    },
+    {
+      "step": 2220,
+      "epoca": 7,
+      "tokens": 2273280,
+      "train_loss": 1.7606334209442138,
+      "val_loss": 1.7919657468795775
+    },
+    {
+      "step": 2240,
+      "epoca": 7,
+      "tokens": 2293760,
+      "train_loss": 1.7265634775161742,
+      "val_loss": 1.7826212882995605
+    },
+    {
+      "step": 2260,
+      "epoca": 7,
+      "tokens": 2314240,
+      "train_loss": 1.753561544418335,
+      "val_loss": 1.7735241174697876
+    },
+    {
+      "step": 2280,
+      "epoca": 7,
+      "tokens": 2334720,
+      "train_loss": 1.7367135047912599,
+      "val_loss": 1.7797635078430176
+    },
+    {
+      "step": 2300,
+      "epoca": 7,
+      "tokens": 2355200,
+      "train_loss": 1.7145446300506593,
+      "val_loss": 1.774214768409729
+    },
+    {
+      "step": 2320,
+      "epoca": 7,
+      "tokens": 2375680,
+      "train_loss": 1.724346899986267,
+      "val_loss": 1.7768532276153564
+    },
+    {
+      "step": 2340,
+      "epoca": 7,
+      "tokens": 2396160,
+      "train_loss": 1.752488923072815,
+      "val_loss": 1.7713930130004882
+    },
+    {
+      "step": 2360,
+      "epoca": 7,
+      "tokens": 2416640,
+      "train_loss": 1.740001630783081,
+      "val_loss": 1.7756708145141602
+    },
+    {
+      "step": 2380,
+      "epoca": 7,
+      "tokens": 2437120,
+      "train_loss": 1.7755131721496582,
+      "val_loss": 1.771365237236023
+    },
+    {
+      "step": 2400,
+      "epoca": 7,
+      "tokens": 2457600,
+      "train_loss": 1.687900710105896,
+      "val_loss": 1.7570197343826295
+    },
+    {
+      "step": 2420,
+      "epoca": 7,
+      "tokens": 2478080,
+      "train_loss": 1.689826989173889,
+      "val_loss": 1.744677686691284
+    },
+    {
+      "step": 2440,
+      "epoca": 7,
+      "tokens": 2498560,
+      "train_loss": 1.7153611183166504,
+      "val_loss": 1.758795976638794
+    },
+    {
+      "step": 2460,
+      "epoca": 7,
+      "tokens": 2519040,
+      "train_loss": 1.7177104949951172,
+      "val_loss": 1.7504610300064087
+    },
+    {
+      "step": 2480,
+      "epoca": 8,
+      "tokens": 2539520,
+      "train_loss": 1.7028352975845338,
+      "val_loss": 1.7479886770248414
+    },
+    {
+      "step": 2500,
+      "epoca": 8,
+      "tokens": 2560000,
+      "train_loss": 1.7053233146667481,
+      "val_loss": 1.75641827583313
+    },
+    {
+      "step": 2520,
+      "epoca": 8,
+      "tokens": 2580480,
+      "train_loss": 1.6771326780319213,
+      "val_loss": 1.7474176406860351
+    },
+    {
+      "step": 2540,
+      "epoca": 8,
+      "tokens": 2600960,
+      "train_loss": 1.6410135269165038,
+      "val_loss": 1.7494056224822998
+    },
+    {
+      "step": 2560,
+      "epoca": 8,
+      "tokens": 2621440,
+      "train_loss": 1.7000351905822755,
+      "val_loss": 1.747139811515808
+    },
+    {
+      "step": 2580,
+      "epoca": 8,
+      "tokens": 2641920,
+      "train_loss": 1.715995454788208,
+      "val_loss": 1.744501781463623
+    },
+    {
+      "step": 2600,
+      "epoca": 8,
+      "tokens": 2662400,
+      "train_loss": 1.6882564544677734,
+      "val_loss": 1.744657778739929
+    },
+    {
+      "step": 2620,
+      "epoca": 8,
+      "tokens": 2682880,
+      "train_loss": 1.6762777328491212,
+      "val_loss": 1.7358850479125976
+    },
+    {
+      "step": 2640,
+      "epoca": 8,
+      "tokens": 2703360,
+      "train_loss": 1.6975172996520995,
+      "val_loss": 1.7299563407897949
+    },
+    {
+      "step": 2660,
+      "epoca": 8,
+      "tokens": 2723840,
+      "train_loss": 1.7353490114212036,
+      "val_loss": 1.734775972366333
+    },
+    {
+      "step": 2680,
+      "epoca": 8,
+      "tokens": 2744320,
+      "train_loss": 1.6501176595687865,
+      "val_loss": 1.7343868732452392
+    },
+    {
+      "step": 2700,
+      "epoca": 8,
+      "tokens": 2764800,
+      "train_loss": 1.6771625757217408,
+      "val_loss": 1.7305370807647704
+    },
+    {
+      "step": 2720,
+      "epoca": 8,
+      "tokens": 2785280,
+      "train_loss": 1.6689767599105836,
+      "val_loss": 1.7234414100646973
+    },
+    {
+      "step": 2740,
+      "epoca": 8,
+      "tokens": 2805760,
+      "train_loss": 1.7093168497085571,
+      "val_loss": 1.727322506904602
+    },
+    {
+      "step": 2760,
+      "epoca": 8,
+      "tokens": 2826240,
+      "train_loss": 1.6848507165908813,
+      "val_loss": 1.7277860403060914
+    },
+    {
+      "step": 2780,
+      "epoca": 8,
+      "tokens": 2846720,
+      "train_loss": 1.638972806930542,
+      "val_loss": 1.7289852380752564
+    },
+    {
+      "step": 2800,
+      "epoca": 8,
+      "tokens": 2867200,
+      "train_loss": 1.676022458076477,
+      "val_loss": 1.7230600357055663
+    },
+    {
+      "step": 2820,
+      "epoca": 9,
+      "tokens": 2887680,
+      "train_loss": 1.6851654529571534,
+      "val_loss": 1.715032172203064
+    },
+    {
+      "step": 2840,
+      "epoca": 9,
+      "tokens": 2908160,
+      "train_loss": 1.6426234245300293,
+      "val_loss": 1.7202374458312988
+    },
+    {
+      "step": 2860,
+      "epoca": 9,
+      "tokens": 2928640,
+      "train_loss": 1.6576541423797608,
+      "val_loss": 1.717474603652954
+    },
+    {
+      "step": 2880,
+      "epoca": 9,
+      "tokens": 2949120,
+      "train_loss": 1.6561973094940186,
+      "val_loss": 1.7171468496322633
+    },
+    {
+      "step": 2900,
+      "epoca": 9,
+      "tokens": 2969600,
+      "train_loss": 1.6729932069778441,
+      "val_loss": 1.7147998332977294
+    },
+    {
+      "step": 2920,
+      "epoca": 9,
+      "tokens": 2990080,
+      "train_loss": 1.6361161470413208,
+      "val_loss": 1.713532567024231
+    },
+    {
+      "step": 2940,
+      "epoca": 9,
+      "tokens": 3010560,
+      "train_loss": 1.656882357597351,
+      "val_loss": 1.7105623006820678
+    },
+    {
+      "step": 2960,
+      "epoca": 9,
+      "tokens": 3031040,
+      "train_loss": 1.6218720436096192,
+      "val_loss": 1.7042704820632935
+    },
+    {
+      "step": 2980,
+      "epoca": 9,
+      "tokens": 3051520,
+      "train_loss": 1.668025517463684,
+      "val_loss": 1.7115893125534059
+    },
+    {
+      "step": 3000,
+      "epoca": 9,
+      "tokens": 3072000,
+      "train_loss": 1.646265983581543,
+      "val_loss": 1.7163761854171753
+    },
+    {
+      "step": 3020,
+      "epoca": 9,
+      "tokens": 3092480,
+      "train_loss": 1.6432999610900878,
+      "val_loss": 1.7052236557006837
+    },
+    {
+      "step": 3040,
+      "epoca": 9,
+      "tokens": 3112960,
+      "train_loss": 1.6320595264434814,
+      "val_loss": 1.698256516456604
+    },
+    {
+      "step": 3060,
+      "epoca": 9,
+      "tokens": 3133440,
+      "train_loss": 1.6347589254379273,
+      "val_loss": 1.7052400588989258
+    },
+    {
+      "step": 3080,
+      "epoca": 9,
+      "tokens": 3153920,
+      "train_loss": 1.6446168899536133,
+      "val_loss": 1.689673399925232
+    },
+    {
+      "step": 3100,
+      "epoca": 9,
+      "tokens": 3174400,
+      "train_loss": 1.6264584064483643,
+      "val_loss": 1.686875581741333
+    },
+    {
+      "step": 3120,
+      "epoca": 9,
+      "tokens": 3194880,
+      "train_loss": 1.6502369880676269,
+      "val_loss": 1.6889842987060546
+    },
+    {
+      "step": 3140,
+      "epoca": 9,
+      "tokens": 3215360,
+      "train_loss": 1.6212862730026245,
+      "val_loss": 1.6888156890869142
+    },
+    {
+      "step": 3160,
+      "epoca": 9,
+      "tokens": 3235840,
+      "train_loss": 1.565964698791504,
+      "val_loss": 1.6880467176437377
+    },
+    {
+      "step": 3180,
+      "epoca": 10,
+      "tokens": 3256320,
+      "train_loss": 1.5817621231079102,
+      "val_loss": 1.6995951652526855
+    },
+    {
+      "step": 3200,
+      "epoca": 10,
+      "tokens": 3276800,
+      "train_loss": 1.6594123125076294,
+      "val_loss": 1.6856669187545776
+    },
+    {
+      "step": 3220,
+      "epoca": 10,
+      "tokens": 3297280,
+      "train_loss": 1.6481218338012695,
+      "val_loss": 1.6876367807388306
+    },
+    {
+      "step": 3240,
+      "epoca": 10,
+      "tokens": 3317760,
+      "train_loss": 1.6337764739990235,
+      "val_loss": 1.6899404764175414
+    },
+    {
+      "step": 3260,
+      "epoca": 10,
+      "tokens": 3338240,
+      "train_loss": 1.6096192359924317,
+      "val_loss": 1.6859037637710572
+    },
+    {
+      "step": 3280,
+      "epoca": 10,
+      "tokens": 3358720,
+      "train_loss": 1.5656326532363891,
+      "val_loss": 1.6781790733337403
+    },
+    {
+      "step": 3300,
+      "epoca": 10,
+      "tokens": 3379200,
+      "train_loss": 1.6138736248016357,
+      "val_loss": 1.6842045545578004
+    },
+    {
+      "step": 3320,
+      "epoca": 10,
+      "tokens": 3399680,
+      "train_loss": 1.5987378120422364,
+      "val_loss": 1.6876773357391357
+    },
+    {
+      "step": 3340,
+      "epoca": 10,
+      "tokens": 3420160,
+      "train_loss": 1.6339690446853639,
+      "val_loss": 1.68318772315979
+    },
+    {
+      "step": 3360,
+      "epoca": 10,
+      "tokens": 3440640,
+      "train_loss": 1.6059053897857667,
+      "val_loss": 1.6693592309951781
+    },
+    {
+      "step": 3380,
+      "epoca": 10,
+      "tokens": 3461120,
+      "train_loss": 1.6021702766418457,
+      "val_loss": 1.6719175100326538
+    },
+    {
+      "step": 3400,
+      "epoca": 10,
+      "tokens": 3481600,
+      "train_loss": 1.588495707511902,
+      "val_loss": 1.6715150594711303
+    },
+    {
+      "step": 3420,
+      "epoca": 10,
+      "tokens": 3502080,
+      "train_loss": 1.6135476350784301,
+      "val_loss": 1.6727563858032226
+    },
+    {
+      "step": 3440,
+      "epoca": 10,
+      "tokens": 3522560,
+      "train_loss": 1.5773043870925902,
+      "val_loss": 1.675556230545044
+    },
+    {
+      "step": 3460,
+      "epoca": 10,
+      "tokens": 3543040,
+      "train_loss": 1.5948981046676636,
+      "val_loss": 1.668024206161499
+    },
+    {
+      "step": 3480,
+      "epoca": 10,
+      "tokens": 3563520,
+      "train_loss": 1.6053627967834472,
+      "val_loss": 1.6672749757766723
+    },
+    {
+      "step": 3500,
+      "epoca": 10,
+      "tokens": 3584000,
+      "train_loss": 1.6017656803131104,
+      "val_loss": 1.6710009098052978
+    },
+    {
+      "step": 3520,
+      "epoca": 10,
+      "tokens": 3604480,
+      "train_loss": 1.57285532951355,
+      "val_loss": 1.6735121488571167
+    }
+  ],
+  "epocas": [
+    {
+      "epoca": 1,
+      "train_loss": 2.354472279548645,
+      "val_loss": 3.389714556932449,
+      "ppl_train": 10.532569142693882,
+      "ppl_val": 29.65748553839344,
+      "tempo_s": 25.309666300000117,
+      "amostra": "The Project Gutenberg eBook of Dom Casmu de de de de de de e de de de e e e e e e de e e e de e e e e e e e de e e de de de de de e e e e e e de de e e e e e e e e e de de de e e e e de e e "
+    },
+    {
+      "epoca": 2,
+      "train_loss": 2.1466813520951704,
+      "val_loss": 3.2161038160324096,
+      "ppl_train": 8.556415496934962,
+      "ppl_val": 24.93079574082815,
+      "tempo_s": 24.896644399999786,
+      "amostra": "The Project Gutenberg eBook of Dom Casmura de de para de e para a de para de e e e para a de para de e e e para de e e para de e e e parara de e e para de e e para de e e e parara de e e par"
+    },
+    {
+      "epoca": 3,
+      "train_loss": 2.006617907434702,
+      "val_loss": 3.061426454782486,
+      "ppl_train": 7.438118353890521,
+      "ppl_val": 21.358001666631708,
+      "tempo_s": 28.90951780000023,
+      "amostra": "The Project Gutenberg eBook of Dom Casmuitú de para de mas a mas de para ma mas de para ma mas de para ma mas de para ma mas de para ma mas de para ma mas de para ma mas de para ma mas de pa"
+    },
+    {
+      "epoca": 4,
+      "train_loss": 1.9098894846710293,
+      "val_loss": 2.909572073817253,
+      "ppl_train": 6.75234251993952,
+      "ppl_val": 18.348944892795945,
+      "tempo_s": 30.18802000000005,
+      "amostra": "The Project Gutenberg eBook of Dom Casmustos de a como de a como a mesta de a mas com a mas de mestas a comos a mestas de a mas com a mas de mestas a com a mas de mestas a com a mas de mesta"
+    },
+    {
+      "epoca": 5,
+      "train_loss": 1.8358141718940302,
+      "val_loss": 2.8509114742279054,
+      "ppl_train": 6.270237118636048,
+      "ppl_val": 17.30354639157253,
+      "tempo_s": 39.57968810000011,
+      "amostra": "The Project Gutenberg eBook of Dom Casmuito de para de como de para de para de para de para de para de para de para de para de para de para de para de para de para de para de para de para de"
+    },
+    {
+      "epoca": 6,
+      "train_loss": 1.766124320978468,
+      "val_loss": 2.7835195422172547,
+      "ppl_train": 5.848143853978525,
+      "ppl_val": 16.175852474568234,
+      "tempo_s": 32.900345200000174,
+      "amostra": "The Project Gutenberg eBook of Dom Casmus de com a minha de minha mãe a mãe a mãe de me a minha de mãe a mãe a me me a minha de mas para de minha mãe a mãe a mãe de me a minha de mãe a mãe a"
+    },
+    {
+      "epoca": 7,
+      "train_loss": 1.7135967622426422,
+      "val_loss": 2.7132123202085494,
+      "ppl_train": 5.548883643677822,
+      "ppl_val": 15.077631986985446,
+      "tempo_s": 29.224200399999972,
+      "amostra": "The Project Gutenberg eBook of Dom Casmuito de minha mãe de minha mãe de menha mãe de menha mãe esta de menha mais de minha mãe e a meu para de minha mãe e a menha de minha mãe de minha mãe "
+    },
+    {
+      "epoca": 8,
+      "train_loss": 1.6676405485380779,
+      "val_loss": 2.7450611680746078,
+      "ppl_train": 5.2996487699325,
+      "ppl_val": 15.565566018769172,
+      "tempo_s": 29.16005580000001,
+      "amostra": "The Project Gutenberg eBook of Dom Casmulo de contario de com a minha de minha de minha e a mãe de contar a minha de contar a minha de contar a minha de contar a minha de contar a minha de c"
+    },
+    {
+      "epoca": 9,
+      "train_loss": 1.6314920027824966,
+      "val_loss": 2.6919540405273437,
+      "ppl_train": 5.11149539744168,
+      "ppl_val": 14.760490355345144,
+      "tempo_s": 28.66697090000025,
+      "amostra": "The Project Gutenberg eBook of Dom Casmuras de com a minha de minha mãe de minha mãe de minha mãe de minha mãe de minha mãe de minha mãe de minha mãe de minha mãe de minha mãe de minha mãe d"
+    },
+    {
+      "epoca": 10,
+      "train_loss": 1.5986052561889996,
+      "val_loss": 2.706873407959938,
+      "ppl_train": 4.9461290284290085,
+      "ppl_val": 14.982358485108685,
+      "tempo_s": 28.900659400000222,
+      "amostra": "The Project Gutenberg eBook of Dom Casmura a para de minha mãe\nachara de minha mãe de contar a minha mãe de contar a minha mãe de\ncontar e a minha mãe de contar a minha mãe de contar a minha"
+    }
+  ],
+  "tempo_total_s": 297.7368591999998,
+  "tokens_vistos": 3604480
+}
